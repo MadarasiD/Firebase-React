@@ -1,0 +1,49 @@
+[debug] [2022-08-14T12:34:12.904Z] ----------------------------------------------------------------------
+[debug] [2022-08-14T12:34:12.906Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\madar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-08-14T12:34:12.907Z] CLI Version:   11.6.0
+[debug] [2022-08-14T12:34:12.907Z] Platform:      win32
+[debug] [2022-08-14T12:34:12.907Z] Node Version:  v16.15.0
+[debug] [2022-08-14T12:34:12.909Z] Time:          Sun Aug 14 2022 14:34:12 GMT+0200 (közép-európai nyári idő)
+[debug] [2022-08-14T12:34:12.909Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-14T12:34:12.982Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-14T12:34:12.982Z] > authorizing via signed-in user (madarka0913@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2022-08-14T12:34:13.034Z] [hub] writing locator at C:\Users\madar\AppData\Local\Temp\hub-fir-vizsga-d7925.json
+[debug] [2022-08-14T12:34:13.066Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-vizsga-d7925/sites 
+[debug] [2022-08-14T12:34:14.104Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-vizsga-d7925/sites 200
+[debug] [2022-08-14T12:34:14.104Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-vizsga-d7925/sites {"sites":[{"name":"projects/fir-vizsga-d7925/sites/fir-vizsga-d7925","defaultUrl":"https://fir-vizsga-d7925.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-08-14T12:34:14.104Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-vizsga-d7925/webApps/-/config [none]
+[debug] [2022-08-14T12:34:14.821Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-vizsga-d7925/webApps/-/config 200
+[debug] [2022-08-14T12:34:14.821Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-vizsga-d7925/webApps/-/config {"projectId":"fir-vizsga-d7925","appId":"1:843073959454:web:1022ee7aa0266b6691200f","storageBucket":"fir-vizsga-d7925.appspot.com","locationId":"europe-west","apiKey":"AIzaSyCVrJJET_2gl20zA9Vtm38O10NwoMAX33Y","authDomain":"fir-vizsga-d7925.firebaseapp.com","messagingSenderId":"843073959454"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+├──────────┼────────────────┤
+│ Eventarc │ localhost:9299 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [14/Aug/2022:12:34:25 +0000] "GET / HTTP/1.1" 200 650 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Aug/2022:12:34:25 +0000] \"GET / HTTP/1.1\" 200 650 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Aug/2022:12:34:25 +0000] "GET /static/css/main.fb0ba1b1.css HTTP/1.1" 200 1010 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Aug/2022:12:34:25 +0000] \"GET /static/css/main.fb0ba1b1.css HTTP/1.1\" 200 1010 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Aug/2022:12:34:25 +0000] "GET /static/js/main.f461ba4b.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Aug/2022:12:34:25 +0000] \"GET /static/js/main.f461ba4b.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Aug/2022:12:34:25 +0000] "GET /favicon.ico HTTP/1.1" 200 650 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Aug/2022:12:34:25 +0000] \"GET /favicon.ico HTTP/1.1\" 200 650 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Aug/2022:12:34:26 +0000] "GET /manifest.json HTTP/1.1" 200 650 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Aug/2022:12:34:26 +0000] \"GET /manifest.json HTTP/1.1\" 200 650 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Aug/2022:12:34:46 +0000] "GET / HTTP/1.1" 200 650 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Aug/2022:12:34:46 +0000] \"GET / HTTP/1.1\" 200 650 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Aug/2022:12:35:23 +0000] "GET / HTTP/1.1" 200 650 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Aug/2022:12:35:23 +0000] \"GET / HTTP/1.1\" 200 650 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Aug/2022:12:35:23 +0000] "GET /static/js/main.f461ba4b.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Aug/2022:12:35:23 +0000] \"GET /static/js/main.f461ba4b.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Aug/2022:12:35:23 +0000] "GET /static/css/main.fb0ba1b1.css HTTP/1.1" 200 1010 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Aug/2022:12:35:23 +0000] \"GET /static/css/main.fb0ba1b1.css HTTP/1.1\" 200 1010 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Aug/2022:12:35:23 +0000] "GET /manifest.json HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Aug/2022:12:35:23 +0000] \"GET /manifest.json HTTP/1.1\" 304 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Aug/2022:12:35:23 +0000] "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Aug/2022:12:35:23 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\""}}
